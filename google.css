@@ -1,0 +1,165 @@
+html{
+	font-family: arial,sans-serif;
+}
+
+div {
+	display: block;
+}
+
+#view{
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+#menu{
+	padding-top:10px;
+}
+
+#m_t{
+	position:relative;
+	text-align:right;
+	padding:0 12px;
+	padding-right: 15px;
+	font-size: 13px;
+}
+
+#g_i{
+	padding-right: 12px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.t_b{
+	color:black;
+}
+
+.t_b:hover{
+	text-decoration:underline;
+}
+
+#g_grid{
+	height:20px;
+	width:20px;
+	opacity:0.5;
+	cursor:default;
+	vertical-align: middle;
+}
+
+#g_grid:hover{
+	opacity:1.0;
+}
+
+.s_i{
+	vertical-align: middle;
+	cursor:default;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	color:white;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	font-size: 13px;
+}
+
+.c_con{
+	height: 231px;
+	margin-top: 80px;
+	display:block;
+}
+
+#g_logo{
+	display: inline-block;
+	position: relative;
+	padding-top:112px;
+	height:95px;
+	width:269px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+	text-align: -webkit-center;
+}
+
+.search_bar{
+	height:25px;
+	width:600px;
+	font: 16px arial,sans-serif;
+	display: inline-block;
+}
+
+input[type="text"]{
+	padding: 10px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+
+.mic_b{
+	position:relative;
+	right:25px;
+	background-size: 14px 19px;
+	display: inline-block;
+	height: 23px;
+	width: 17px;
+	vertical-align: middle;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.mic_b:hover{
+	opacity:1.0;
+}
+
+.button_style{
+	line-height: 27px;
+	padding-top: 10px;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.1);
+	color: #444;
+	cursor: default;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+}
+
+.button_style:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+#footer{
+	background:#f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 1000px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.f_b{
+	text-align:left;
+	margin-left: 30px;
+	white-space: nowrap;
+}
+
+.f_r{
+	float: right;
+	text-align:right;
+	margin-right: 30px;
+}
+
+.ffs{
+	color: #666;
+	margin:12px;
+	font-size: small;
+}
